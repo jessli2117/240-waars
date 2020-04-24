@@ -6,3 +6,25 @@ body{
     font-size: 48px;
 }
 
+h2 {
+    font-style: italic;
+    font-weight: bold 900;
+    text-align: center;
+}
+
+h5 {
+    font-style: italic;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.content-committee {
+    width: 80%;
+    align-content: center;
+}
+
+
+
+.profile-picture{
+    border-radius: 50%;
+}
