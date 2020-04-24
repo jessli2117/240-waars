@@ -1,9 +1,290 @@
+/*COLORS:
+PURPLE: #BAA5CA*/
+/*TEAL: #44A39A*/
+
 *{ padding: 0; margin: 0; 
 }
 
 body{
 	font-family: 'Inter', serif;
-    font-size: 48px;
+    
+}
+
+/*NAVIGATION BAR STYLING
+*/.navbar{
+	background-color: #BAA5CA;
+
+}
+
+/*#navigation{
+	color:red;
+}*/
+
+nav .navbar-nav li a{
+  color: white;
+  }
+
+nav .navbar-nav li a:hover{
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+
+.navbar-brand{
+	color: white;    
+	text-shadow: 2px 0 #888888;
+	letter-spacing:1px;
+	font-weight:bold;
+}
+
+nav .navbar-brand:hover{
+		color:pink;
+	}
+
+.navbar-brand h2{
+	font-size: 2rem;
+}
+
+.navbar-brand p{
+	margin: -2% 0 0 1%;
+	font-size: 0.8rem;
+}
+
+.navbar-nav li{
+	color:white;
+}
+
+
+
+/*FOOTER STYLING*/
+
+.footer {
+	background-color: #BAA5CA;
+	color:white;
+	height:50px;
+	width:100%;
+}
+.footer ul{
+	text-align:center;
+	margin: 0 auto;
+}
+.footer ul li{
+	list-style-type: none;
+	display:inline-block;
+	padding:1%;
+	color:white;
+}
+
+.footer ul li:hover{
+	
+	text-decoration: underline;
+}
+
+
+/*CAROUSEL STYLING*/
+
+.carousel-caption{
+	left: 55%;
+	top: 30%;
+	font-size:3rem;
+	line-height:100%;
+	text-shadow: 2px 0 #888888;
+	letter-spacing:1px;
+	font-weight:bold;
+
+}
+
+/*.nice-button{
+	border-radius:8px;
+	background-color:#44A39A;
+	font-size:1em;
+	color:white;
+}*/
+
+.nice-button {
+  background-color: #44A39A;
+  border-radius:20px;
+  width:100%;
+  border: none;
+  color: white;
+  padding:10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*PODCAST*/
+.podcast {
+	background-color: white;
+	text-align:center;
+	
+
+}
+
+
+.podcast .d-inline-block{
+	display:block;
+	margin: 5% auto;
+
+}
+
+.podcast h1{
+	line-height:100%;
+	text-shadow: 2px 0 #888888;
+	letter-spacing:1px;
+	font-weight:bold;
+	color:#44A39A;
+
+}
+
+.podcast #text-container{
+	padding-right: 10%;
+}
+
+
+/*Fun and Encouragement*/
+
+
+.fun{
+	width:100%;
+	background-color: #BAA5CA;
+	border: 1px solid blue;
+	box-sizing: border-box;
+}
+
+.fun .row{
+	margin:0 auto;
+	width:100%;
+	background-color: #BAA5CA;
+	text-align:center;
+}
+
+
+
+.fun h1{
+
+	text-shadow: 2px 0 #888888;
+	letter-spacing:1px;
+	font-weight:bold;
+
+}
+
+#fun-row-1{
+	padding: 5%;
+	color:black;
+}
+
+.fun .card{
+	margin: 5% auto;
+}
+
+
+/*Press and News*/
+
+.news h1{
+	padding: 5%;
+}
+.news .card{
+	margin: 5% auto;
+}
+
+/* Advisory Committe*/
+
+.profile-card-4 .card-img-block{
+    float:left;
+    width:100%;
+    height:150px;
+    overflow:hidden;
+}
+.profile-card-4 .card-body{
+    position:relative;
+}
+.profile-card-4 .profile {
+    border-radius: 50%;
+    position: absolute;
+    top: -62px;
+    left: 50%;
+    width:100px;
+    border: 3px solid rgba(255, 255, 255, 1);
+    margin-left: -50px;
+}
+.profile-card-4 .card-img-block{
+    position:relative;
+}
+.profile-card-4 .card-img-block > .info-box{
+    position:absolute;
+    background:rgba(217,11,225,0.6);
+    width:100%;
+    height:100%;
+    color:#fff;
+    padding:20px;
+    text-align:center;
+    font-size:14px;
+   -webkit-transition: 1s ease;
+    transition: 1s ease;
+    opacity:0;
+}
+.profile-card-4 .card-img-block:hover > .info-box{
+    opacity:1;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.profile-card-4 h5{
+    font-weight:600;
+    color:#d90be1;
+}
+.profile-card-4 .card-text{
+    font-weight:300;
+    font-size:15px;
+}
+.profile-card-4 .icon-block{
+    float:left;
+    width:100%;
+}
+.profile-card-4 .icon-block a{
+    text-decoration:none;
+}
+.profile-card-4 i {
+  display: inline-block;
+    font-size: 16px;
+    color: #d90be1;
+    text-align: center;
+    border: 1px solid #d90be1;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin:0 5px;
+}
+.profile-card-4 i:hover {
+  background-color:#d90be1;
+  color:#fff;
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media only screen and (max-width: 768px){
+	.navbar-brand{
+	  	color:white;
+	  	margin: 0 auto;
+	  	font-size: 20px;
+	  }
+
+
+	#title h2{
+		text-align:center;
+
+	}
+
+	nav .navbar-brand:hover{
+		color:pink;
+	}
+
+	.carousel-caption{
+		font-size:1.5rem;
+	}
 }
 
 h2 {
