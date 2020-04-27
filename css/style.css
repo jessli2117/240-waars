@@ -1,0 +1,663 @@
+/*COLORS:
+PURPLE: #BAA5CA*/
+/*TEAL: #44A39A*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,900&display=swap');
+
+*{ padding: 0; margin: 0; 
+}
+
+body{
+	font-family: 'Inter', serif; 
+}
+
+/*NAVIGATION BAR STYLING */
+.navbar{
+    background-color: #BAA5CA;
+    height: 4.5em;
+
+}
+
+.title h2
+{
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.title p
+{
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+nav .navbar-nav li a{
+  color: white;
+
+  }
+
+nav .navbar-nav li a:hover{
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+
+.navbar-brand{
+	color: white;    
+	text-shadow: 2px 0 #888888;
+	letter-spacing:1px;
+	font-weight: bold;
+}
+
+nav .navbar-brand:hover{
+		color:black;
+	}
+
+.navbar-brand h2{
+    font-size: 2rem;
+    margin-top: -1%;
+}
+
+.navbar-brand p{
+	margin: -5% 0 0 1%;
+	font-size: 0.7rem;
+}
+
+.navbar-nav li{
+    color:white;
+    text-shadow: 1px 0 #888888;
+    font-family: 'Inter';
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+
+/*FOOTER STYLING*/
+
+.footer {
+	background-color: #BAA5CA;
+	color:white;
+	height:50px;
+    width:100%;
+}
+.footer ul{
+	text-align:center;
+	margin: 0 auto;
+}
+.footer ul li{
+	list-style-type: none;
+	display:inline-block;
+	padding:1%;
+	color:white;
+}
+
+.footer ul li:hover{
+	
+	text-decoration: underline;
+}
+
+
+/*CAROUSEL STYLING*/
+
+.carousel-caption{
+	left: 55%;
+	top: 30%;
+	font-size:3rem;
+	line-height:100%;
+	text-shadow: 2px 0 #888888;
+	letter-spacing:1px;
+	font-weight:bold;
+
+}
+
+/*.nice-button{
+	border-radius:8px;
+	background-color:#44A39A;
+	font-size:1em;
+	color:white;
+}*/
+
+.nice-button {
+  background-color: #44A39A;
+  border-radius:20px;
+  width:100%;
+  border: none;
+  color: white;
+  padding:10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*PODCAST*/
+.podcast {
+	background-color: white;
+	text-align:center;
+	
+
+}
+
+
+.podcast .d-inline-block{
+	display:block;
+	margin: 5% auto;
+
+}
+
+.podcast h1{
+	line-height:100%;
+	text-shadow: 2px 0 #888888;
+	letter-spacing:1px;
+	font-weight:bold;
+	color:#44A39A;
+
+}
+
+.podcast #text-container{
+	padding-right: 10%;
+}
+
+
+/*Fun and Encouragement*/
+
+
+.fun{
+	width:100%;
+	background-color: #BAA5CA;
+	border: 1px solid blue;
+	box-sizing: border-box;
+}
+
+.fun .row{
+	margin:0 auto;
+	width:100%;
+	background-color: #BAA5CA;
+	text-align:center;
+}
+
+
+
+.fun h1{
+
+	text-shadow: 2px 0 #888888;
+	letter-spacing:1px;
+	font-weight:bold;
+
+}
+
+#fun-row-1{
+	padding: 5%;
+	color:black;
+}
+
+.fun .card{
+	margin: 5% auto;
+}
+
+
+/*Press and News*/
+
+.news h1{
+	padding: 5%;
+}
+.news .card{
+	margin: 5% auto;
+}
+
+/* ABOUT US STYLING ------------------------------------------------------------------------------------------*/
+
+.about-us h1 {
+    font-style: italic;
+    font-size: 4em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-us h3, h4{
+    font-style: italic;
+    line-height: 1.8;
+    text-align: center;
+    font-weight: 300;
+}
+
+.about-us h5 {
+    font-style: italic;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+/* Leadership Committee Items */
+
+.content-committee {
+    width: 80%;
+    align-content: center;
+}
+
+.profile-picture-leader {
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+}
+
+.leader-text h2{
+    text-align: left; 
+    font-style: normal; 
+    font-weight: bold;
+}
+
+.leader-text h5{
+    text-align: left; 
+    font-style: normal; 
+    font-weight: 200;
+}
+
+/* Advisory Committee Items */
+
+.advisory h1 {
+    font-style: italic;
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: center;
+    color: #00796B;
+}
+
+.advisory .card {
+    height: 40em;
+    /* object-fit: cover; */
+}
+
+
+.advisor .card-img-top {
+    align-self: center;
+    width: 175px;
+    height: auto;
+    /* object-fit: cover; */
+}
+
+.advisor h2 {
+    text-align: center; 
+    font-style: normal; 
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.advisor h5{
+    text-align: center; 
+    font-style: normal; 
+    font-weight: 200;
+}
+
+.advisor p{
+    text-align: center; 
+    font-style: normal; 
+    font-weight: 300;
+}
+
+/* Testimonial Items */
+
+.testimonial .carousel-item {
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("images/about-us/carousel-backgroud.jpeg");
+    background-color: #BAA5CA;
+}
+
+.testimonial .carousel-item h1 {
+    position: absolute;
+    color: white;
+    font-weight: bold 900;
+    text-align: center;
+}
+
+.testimonial .carousel-item h2 {
+    color: black;
+    font-style: italic; 
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+.testimonial .main-text
+{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    color: #FFF;
+    font-weight: bold 900;
+    text-align: center;
+}
+
+/* GET HELP STYLING ------------------------------------------------------------------------------------------*/
+.gethelp {
+	font-size: 48px;
+}
+
+.gethelp a#nav-heading {
+font-size: 2rem;
+padding: 0px;
+margin-right: 20%;
+
+}
+.gethelp a span {
+	color:red;
+	font-size: 1rem;
+}
+
+.gethelp a#nav-elements {
+	font-size: 1.5rem;
+	margin-right: 5%;
+}
+
+.gethelp .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.gethelp h1 {
+	text-align: center;
+	font-size: 1.3em;
+	padding-bottom: 3%;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.gethelp h1 span {
+	color: #00796B;
+}
+
+.gethelp .pt-5{
+	padding-top: 3rem !important;
+}
+
+.gethelp .listing {
+	text-align: center;
+	font-size: 0.5em;
+	font-style: italic;
+	padding-left: 0px;
+}
+
+.gethelp .listing li {
+    list-style: inside;
+    color: #00796B;
+    font-size: 21px;
+}
+
+.gethelp .aftr-para{
+	text-align: center;
+	font-size: 0.5em;
+}
+
+.gethelp .gethelp-findhelp {
+	background: #E5E5E5;
+}
+
+.gethelp .gethelp-otherresources{
+	background: #BAA5CA;
+}
+
+.gethelp .gethelp-faq{
+	background: white;
+}
+
+.gethelp div.gethelp-faq h1{
+	color: #00796B;
+}
+
+.gethelp .accordion{
+	background: white;
+	border: 1px solid #4DB694;
+	border-left: 2px solid #4DB694;
+    border-right: 2px solid #4DB694;
+}
+
+.gethelp .card {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+.gethelp img.card-img-top {
+	width: 30%;
+	height: 30%;
+	margin: auto;
+}
+
+.gethelp .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    width: 100%;
+    color: white;
+}
+
+.gethelp .img-main-tp{
+	height: 100vh;/*always fit with screen height*/
+	width: 100%;
+}
+
+.gethelp .here-text{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.gethelp .abuse-text{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.gethelp img.other-resources{
+	width: 75%;
+	height: 75%;
+	margin: auto;
+
+}
+
+.gethelp .img-fluig {
+	width: 100%;
+	height: 100%;
+}
+
+.gethelp .card-text {
+	font-size: 0.3em;
+	padding: 0px;
+}
+
+.gethelp .card-heading {
+	font-size: 0.75em;
+	font-weight: 600;
+}
+
+.gethelp .card-header {
+	background: none;
+	text-decoration: none;
+}
+
+.gethelp .btn {
+	text-decoration: none;
+	color: black;
+
+}
+
+.gethelp .btn:hover {
+	text-decoration: none;
+	color: gray;
+
+}
+
+.gethelp .btn:active {
+	text-decoration: none;
+	color: black;
+}
+
+.gethelp .accordion>.card{
+	text-align: left;
+}
+
+.gethelp .card-header .btn-link{
+	width: 100%;
+	text-align: left;
+}
+
+.gethelp .accordion>.card .card-body{
+	font-size: 20px;
+}
+
+.gethelp .accordion>.card .card-header{
+	margin-bottom: 0px;
+	border-top: 1px solid #4DB694;
+	border-bottom: 1px solid #4DB694;
+}
+
+.gethelp .card-header .btn-link:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 5px;
+}
+
+.gethelp .card-header .btn-link.collapsed:before {
+    float: right !important;
+    content:"\f067";
+    font-family: FontAwesome;
+}
+
+.gethelp .card-header .btn-link:hover, 
+.card-header .btn-link:active, 
+.card-header .btn-link:focus  {
+    text-decoration:none;
+}
+
+.gethelp .card-header:first-child{
+	border-radius: 0px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+/*// Small devices (768px and below)*/
+@media only screen and (max-width: 768px){
+	/* Get Help Small Screens */
+	.gethelp h1{
+		font-size: .7em;
+	}
+
+	.gethelp .pt-5{
+		padding-top: 2rem !important;
+	}
+	.gethelp .listing li{
+		font-size: 15px;
+	}
+	.gethelp .patner-text{
+		font-size: 0.8em;
+	}
+	.gethelp .accordion>.card .card-body{
+		font-size: 15px;
+	}
+
+	.gethelp .aftr-para{
+		font-size: 0.35em;
+	}
+
+	.navbar-brand{
+	  	color:white;
+	  	margin: 0 25% 0 auto;
+	  	font-size: 20px;
+    }
+
+    .navbar-collapse {
+        background-color: #BAA5CA;
+        margin: 0 -5% 10% -5%;
+        padding: 0 0 0 7%;
+
+    }
+
+	nav .navbar-brand:hover{
+		color:black;
+	}
+
+	.carousel-caption{
+		font-size:1.5rem;
+    }
+    
+
+    /* ABOUT US */
+
+    .about-us h1 {
+        font-style: italic;
+        font-size: 2.3em;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .about-us h3{
+        font-style: italic;
+        line-height: 1.6;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .leader-text h2{
+        text-align: center; 
+        font-style: normal; 
+        font-weight: bold 200;
+        font-size: 1.8em;
+    }
+
+    .leader-text p{
+        text-align: center; 
+        font-style: normal; 
+        font-weight: bold 200;
+    }
+    
+    .leader-text h5{
+        text-align: center; 
+        font-style: normal; 
+        font-weight: 200;
+    }
+
+    .advisor .card-body{
+        padding: 10% 10%;
+    }
+
+    .advisory h1 {
+        font-style: italic;
+        font-size: 2.1em;
+        font-weight: bolder;
+        text-align: center;
+        color: #00796B;
+    }
+
+
+    .carousel-item h2 {
+        color: black;
+        font-weight: thin;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    
+
+}
+
