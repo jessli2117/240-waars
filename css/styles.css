@@ -136,10 +136,11 @@ nav .navbar-brand:hover {
     left: 55%;
     top: 10%;
     font-size: 3rem;
+    font-weight: 700;
     line-height: 100%;
-    text-shadow: 2px 0 #888888;
+    /* text-shadow: 2px 0 #888888; */
     letter-spacing: 1px;
-    font-weight: bold;
+    /* font-weight: bold; */
 
 
 }
@@ -159,27 +160,25 @@ nav .navbar-brand:hover {
 */
 
 
-
-/*.nice-button{
-	border-radius:8px;
-	background-color:#44A39A;
-	font-size:1em;
-	color:white;
-}*/
-
 .nice-button {
     background-color: #44A39A;
+    border: none;
+    color: white;
+
     border-radius: 60px;
     width: 100%;
     height: 15%;
-    border: none;
-    color: white;
-    padding: 3%;
+    padding-top: 7%;
+
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    white-space: normal;
+    font-size: 1.8rem;
+    font-weight: bold 800;
+
+}
+
+.nice-button:hover {
+    color: black;
+ 
 }
 
 #carousel-container p {
@@ -188,15 +187,8 @@ nav .navbar-brand:hover {
     padding-bottom: 5px;
 }
 
-.nice-button a {
-    margin: 1% auto;
-    font-size: 1.8rem;
-    line-height: 110%;
-    bottom: 5px;
 
-}
-
-#carousel-container{
+#carousel-container {
     height: 100%;
     margin: 40% auto;
     background-size: contain;
@@ -244,25 +236,21 @@ nav .navbar-brand:hover {
     padding-right: 10%;
 }
 
-/* .podcast iframe {
-    width: 50rem;
-    height: 30rem; 
-} */
 
-.video-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    width:500px;
-    height:100%;
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    width: 500px;
+    height: 100%;
 }
 
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 
@@ -683,7 +671,7 @@ h4 {
 }
 
 /*// Large devices (768px - 1200px)*/
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
     /* HEADING IMAGE */
 
     .heading-image img {
@@ -692,54 +680,33 @@ h4 {
         height: 30rem;
     }
 
-    #carousel-container{
-        height:100%;
+    #carousel-container {
+        height: 100%;
     }
 
     #carousel-container p {
-    margin: 4% auto;
-    padding-bottom: 5px;
-    font-size: 2rem;
-    line-height: 100%;
+        margin: 4% auto;
+        padding-bottom: 5px;
+        font-size: 2rem;
+        line-height: 100%;
 
 
-}
-
-   .nice-button a {
-    margin: 5% auto;
-    padding-bottom: 5px;
-    font-size: 1rem;
-    line-height: 90%;
-    height: 50%;
-    position: relative;
-    top: -10px;
-
-}   
-
-    .navbar-brand{
-        text-align:center;
     }
 
-.nice-button {
-    background-color: #44A39A;
-    border-radius: 60px;
-    width: 100%;
-    height: 15%%;
-    border: none;
-    color: white;
-    padding: 3%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    white-space: normal;
-}
+    .navbar-brand {
+        text-align: center;
+    }
 
-#fun-row-1 {
-    padding: 5%;
-    color: black;
-    font-size: 80%;
-}
+    .nice-button {
+        font-size: 1.1rem;    
+    }
+    
+
+    #fun-row-1 {
+        padding: 5%;
+        color: black;
+        font-size: 80%;
+    }
 
 
 }
@@ -750,6 +717,8 @@ h4 {
 
 
     /* General Small-screen Items */
+
+
 
     /* HEADING IMAGE */
 
@@ -788,7 +757,7 @@ h4 {
         color: white;
         margin: 0 25% 0 auto;
         font-size: 20px;
-        text-align:center;
+        text-align: center;
     }
 
     .navbar-collapse {
@@ -807,33 +776,24 @@ h4 {
         font-size: 1.5rem;
     }
 
-    .nice-button a {
-    margin: 0 auto;
-    font-size: 0.9rem;
-    
 
-}
+    #carousel-container {
+        margin: 30% auto;
+    }
 
- #carousel-container {
-    margin: 30% auto;
- }
- #carousel-container p {
-    margin: 4% auto;
-    padding-bottom: 5px;
-    font-size: 1rem;
-    line-height: 100%;
+    #carousel-container p {
+        margin: 4% auto;
+        padding-bottom: 5px;
+        font-size: 1rem;
+        line-height: 100%;
 
 
-}
+    }
 
- #carousel-container a {
-    font-size: 0.8rem;
-    line-height: 100%;
-
-
-}
-
-
+    .nice-button {
+        font-size: 0.65rem;
+        padding: -2% 5%;    
+    }
 
 
     /* ABOUT US */
@@ -891,24 +851,24 @@ h4 {
         font-size: 1.5em;
     }
 
-    .video-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    width:300px;
-    height:100%;
-}
+    .video-responsive {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        width: 300px;
+        height: 100%;
+    }
 
-#fun-row-1 {
-    padding: 5%;
-    color: black;
-    font-size: 60%;
-}
+    #fun-row-1 {
+        padding: 5%;
+        color: black;
+        font-size: 60%;
+    }
 
 
-.card-border-0{
-    margin: 1% auto;
-}
+    .card-border-0 {
+        margin: 1% auto;
+    }
 
     /* .about-us .heading-image .here-text{
         font-size: 2em;
