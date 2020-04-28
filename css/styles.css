@@ -47,6 +47,7 @@ nav .navbar-nav li a {
 nav .navbar-nav li a:hover {
     text-decoration: underline;
     font-weight: bold;
+    z-index: 10;
 }
 
 
@@ -78,6 +79,8 @@ nav .navbar-brand:hover {
     font-weight: 500;
     text-align: center;
 }
+
+
 
 /* HEADING IMAGE */
 
@@ -125,15 +128,19 @@ nav .navbar-brand:hover {
 
 /*CAROUSEL STYLING*/
 
+
+
 .carousel-caption {
     width: 30%;
+    height: 100%;
     left: 55%;
-    top: 20%;
+    top: 10%;
     font-size: 3rem;
     line-height: 100%;
     text-shadow: 2px 0 #888888;
     letter-spacing: 1px;
     font-weight: bold;
+
 
 }
 
@@ -142,6 +149,14 @@ nav .navbar-brand:hover {
     width: 100%;
 
 }
+
+/*
+.carousel-item img {
+    object-fit: fill;
+    max-height: 290px;
+    
+}
+*/
 
 
 
@@ -154,21 +169,40 @@ nav .navbar-brand:hover {
 
 .nice-button {
     background-color: #44A39A;
-    border-radius: 20px;
+    border-radius: 60px;
     width: 100%;
+    height: 15%;
     border: none;
     color: white;
-    padding: 10px;
+    padding: 3%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    white-space: normal;
+}
+
+#carousel-container p {
+    line-height: 100%;
+    font-size: 2.8rem;
+    padding-bottom: 5px;
 }
 
 .nice-button a {
-    margin: 0 auto;
+    margin: 1% auto;
+    font-size: 1.8rem;
+    line-height: 110%;
+    bottom: 5px;
+
 }
 
+#carousel-container{
+    height: 100%;
+    margin: 40% auto;
+    background-size: contain;
+
+
+}
 
 
 /*PODCAST*/
@@ -219,8 +253,10 @@ nav .navbar-brand:hover {
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    height:0;
+    width:500px;
+    height:100%;
 }
+
 .video-responsive iframe{
     left:0;
     top:0;
@@ -655,6 +691,57 @@ h4 {
         width: 100%;
         height: 30rem;
     }
+
+    #carousel-container{
+        height:100%;
+    }
+
+    #carousel-container p {
+    margin: 4% auto;
+    padding-bottom: 5px;
+    font-size: 2rem;
+    line-height: 100%;
+
+
+}
+
+   .nice-button a {
+    margin: 5% auto;
+    padding-bottom: 5px;
+    font-size: 1rem;
+    line-height: 90%;
+    height: 50%;
+    position: relative;
+    top: -10px;
+
+}   
+
+    .navbar-brand{
+        text-align:center;
+    }
+
+.nice-button {
+    background-color: #44A39A;
+    border-radius: 60px;
+    width: 100%;
+    height: 15%%;
+    border: none;
+    color: white;
+    padding: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    white-space: normal;
+}
+
+#fun-row-1 {
+    padding: 5%;
+    color: black;
+    font-size: 80%;
+}
+
+
 }
 
 /* --------------------------------------------------------------------------------------------------------------------- */
@@ -701,12 +788,14 @@ h4 {
         color: white;
         margin: 0 25% 0 auto;
         font-size: 20px;
+        text-align:center;
     }
 
     .navbar-collapse {
         background-color: #BAA5CA;
         margin: 0 -5% 10% -5%;
         padding: 0 0 2% 2%;
+        z-index: 999;
 
     }
 
@@ -717,6 +806,34 @@ h4 {
     .carousel-caption {
         font-size: 1.5rem;
     }
+
+    .nice-button a {
+    margin: 0 auto;
+    font-size: 0.9rem;
+    
+
+}
+
+ #carousel-container {
+    margin: 30% auto;
+ }
+ #carousel-container p {
+    margin: 4% auto;
+    padding-bottom: 5px;
+    font-size: 1rem;
+    line-height: 100%;
+
+
+}
+
+ #carousel-container a {
+    font-size: 0.8rem;
+    line-height: 100%;
+
+
+}
+
+
 
 
     /* ABOUT US */
@@ -774,6 +891,24 @@ h4 {
         font-size: 1.5em;
     }
 
+    .video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    width:300px;
+    height:100%;
+}
+
+#fun-row-1 {
+    padding: 5%;
+    color: black;
+    font-size: 60%;
+}
+
+
+.card-border-0{
+    margin: 1% auto;
+}
 
     /* .about-us .heading-image .here-text{
         font-size: 2em;
