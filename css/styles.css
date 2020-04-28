@@ -4,6 +4,9 @@ PURPLE: #BAA5CA*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap');
+
+
 *{ padding: 0; margin: 0; 
 }
 
@@ -121,8 +124,9 @@ nav .navbar-brand:hover{
 /*CAROUSEL STYLING*/
 
 .carousel-caption{
+	width:30%;
 	left: 55%;
-	top: 30%;
+	top: 20%;
 	font-size:3rem;
 	line-height:100%;
 	text-shadow: 2px 0 #888888;
@@ -130,6 +134,14 @@ nav .navbar-brand:hover{
 	font-weight:bold;
 
 }
+
+.carousel-caption #second-slide{
+	margin: 5% auto;
+	width: 100%;
+
+}
+
+
 
 /*.nice-button{
 	border-radius:8px;
@@ -148,19 +160,27 @@ nav .navbar-brand:hover{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
   cursor: pointer;
 }
+
+.nice-button a{
+	margin: 0 auto;
+}
+
+
 
 /*PODCAST*/
 .podcast {
 	background-color: white;
 	text-align:center;
+	height: 60%;
 	
 
 }
 
-
+.podcast .row{
+	margin: 20% auto;
+}
 .podcast .d-inline-block{
 	display:block;
 	margin: 5% auto;
@@ -199,7 +219,6 @@ nav .navbar-brand:hover{
 }
 
 
-
 .fun h1{
 
 	text-shadow: 2px 0 #888888;
@@ -215,6 +234,12 @@ nav .navbar-brand:hover{
 
 .fun .card{
 	margin: 5% auto;
+	background-color: #44A39A;
+	color: white;
+}
+
+.fun .card h5{
+	font-weight: bold;
 }
 
 
@@ -222,12 +247,25 @@ nav .navbar-brand:hover{
 
 .news h1{
 	padding: 5%;
+	font-weight: bold;
 }
 .news .card{
 	margin: 5% auto;
 }
 
+
+.news h5{
+	font-size: 1em;
+	font-weight: bold;
+	color: gray ;
+}
+
+.news p {
+	color: gray;
+}
+
 /* ABOUT US STYLING ------------------------------------------------------------------------------------------*/
+/* Advisory Committee*/
 
 .about-us h1 {
     font-style: italic;
