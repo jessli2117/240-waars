@@ -7,22 +7,23 @@ PURPLE: #BAA5CA*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap');
 
 
-*{ padding: 0; margin: 0; 
+* {
+    padding: 0;
+    margin: 0;
 }
 
-body{
-	font-family: 'Inter', serif; 
+body {
+    font-family: 'Inter', serif;
 }
 
 /*NAVIGATION BAR STYLING */
-.navbar{
+.navbar {
     background-color: #BAA5CA;
     height: 4.5em;
 
 }
 
-.title h2
-{
+.title h2 {
     font-family: 'Lato';
     font-style: italic;
     font-weight: bold;
@@ -30,8 +31,7 @@ body{
 
 }
 
-.title p
-{
+.title p {
     font-family: 'Lato';
     font-style: italic;
     font-weight: normal;
@@ -39,40 +39,40 @@ body{
 
 }
 
-nav .navbar-nav li a{
-  color: white;
+nav .navbar-nav li a {
+    color: white;
 
-  }
+}
 
-nav .navbar-nav li a:hover{
-	text-decoration:underline;
-	font-weight:bold;
+nav .navbar-nav li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 
-.navbar-brand{
-	color: white;    
-	text-shadow: 2px 0 #888888;
-	letter-spacing:1px;
-	font-weight: bold;
+.navbar-brand {
+    color: white;
+    text-shadow: 2px 0 #888888;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
 
-nav .navbar-brand:hover{
-		color:black;
-	}
+nav .navbar-brand:hover {
+    color: black;
+}
 
-.navbar-brand h2{
+.navbar-brand h2 {
     font-size: 2rem;
     margin-top: -1%;
 }
 
-.navbar-brand p{
-	margin: -5% 0 0 1%;
-	font-size: 0.7rem;
+.navbar-brand p {
+    margin: -5% 0 0 1%;
+    font-size: 0.7rem;
 }
 
-.navbar-nav li{
-    color:white;
+.navbar-nav li {
+    color: white;
     text-shadow: 1px 0 #888888;
     font-family: 'Inter';
     font-weight: 500;
@@ -81,7 +81,7 @@ nav .navbar-brand:hover{
 
 /* HEADING IMAGE */
 
-.heading-image img{
+.heading-image img {
     object-fit: cover;
     width: 100%;
     height: 53rem;
@@ -99,45 +99,47 @@ nav .navbar-brand:hover{
 /*FOOTER STYLING*/
 
 .footer {
-	background-color: #BAA5CA;
-	color:white;
-	height:50px;
-    width:100%;
-}
-.footer ul{
-	text-align:center;
-	margin: 0 auto;
-}
-.footer ul li{
-	list-style-type: none;
-	display:inline-block;
-	padding:1%;
-	color:white;
+    background-color: #BAA5CA;
+    color: white;
+    height: 50px;
+    width: 100%;
 }
 
-.footer ul li:hover{
-	
-	text-decoration: underline;
+.footer ul {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1%;
+    color: white;
+}
+
+.footer ul li:hover {
+
+    text-decoration: underline;
 }
 
 
 /*CAROUSEL STYLING*/
 
-.carousel-caption{
-	width:30%;
-	left: 55%;
-	top: 20%;
-	font-size:3rem;
-	line-height:100%;
-	text-shadow: 2px 0 #888888;
-	letter-spacing:1px;
-	font-weight:bold;
+.carousel-caption {
+    width: 30%;
+    left: 55%;
+    top: 20%;
+    font-size: 3rem;
+    line-height: 100%;
+    text-shadow: 2px 0 #888888;
+    letter-spacing: 1px;
+    font-weight: bold;
 
 }
 
-.carousel-caption #second-slide{
-	margin: 5% auto;
-	width: 100%;
+.carousel-caption #second-slide {
+    margin: 5% auto;
+    width: 100%;
 
 }
 
@@ -151,117 +153,156 @@ nav .navbar-brand:hover{
 }*/
 
 .nice-button {
-  background-color: #44A39A;
-  border-radius:20px;
-  width:100%;
-  border: none;
-  color: white;
-  padding:10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
+    background-color: #44A39A;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
-.nice-button a{
-	margin: 0 auto;
+.nice-button a {
+    margin: 0 auto;
 }
 
 
 
 /*PODCAST*/
 .podcast {
-	background-color: white;
-	text-align:center;
-	height: 60%;
-	
+    background-color: white;
+    text-align: center;
+    height: 60%;
+
 
 }
 
-.podcast .row{
-	margin: 20% auto;
-}
-.podcast .d-inline-block{
-	display:block;
-	margin: 5% auto;
-
+.podcast .row {
+    margin: 10% auto;
 }
 
-.podcast h1{
-	line-height:100%;
-	text-shadow: 2px 0 #888888;
-	letter-spacing:1px;
-	font-weight:bold;
-	color:#44A39A;
+.podcast .d-inline-block {
+    display: block;
+    margin: 5% auto;
 
 }
 
-.podcast #text-container{
-	padding-right: 10%;
+.podcast h1 {
+    line-height: 100%;
+    /* text-shadow: 2px 0 #888888; */
+    font-size: 4em;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #44A39A;
+
+}
+
+.podcast h4 {
+    font-size: 2em;
+    font-style: italic;
+}
+
+.podcast #text-container {
+    padding-right: 10%;
+}
+
+/* .podcast iframe {
+    width: 50rem;
+    height: 30rem; 
+} */
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 
 /*Fun and Encouragement*/
 
 
-.fun{
-	width:100%;
-	background-color: #BAA5CA;
-	border: 1px solid blue;
-	box-sizing: border-box;
+.fun {
+    width: 100%;
+    background-color: #BAA5CA;
+    border: 1px solid blue;
+    box-sizing: border-box;
 }
 
-.fun .row{
-	margin:0 auto;
-	width:100%;
-	background-color: #BAA5CA;
-	text-align:center;
+.fun .row {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #BAA5CA;
+    text-align: center;
 }
 
 
-.fun h1{
-
-	text-shadow: 2px 0 #888888;
-	letter-spacing:1px;
-	font-weight:bold;
-
+.fun h1 {
+    text-align: center;
+    font-size: 4em;
+    padding-bottom: 3%;
+    font-weight: 700;
+    font-style: italic;
 }
 
-#fun-row-1{
-	padding: 5%;
-	color:black;
+#fun-row-1 {
+    padding: 5%;
+    color: black;
 }
 
-.fun .card{
-	margin: 5% auto;
-	background-color: #44A39A;
-	color: white;
+.fun .card {
+    margin: 5% auto;
+    background-color: #44A39A;
+    /* background-color: #FFF; */
+    color: white;
+    /* color: black; */
 }
 
-.fun .card h5{
-	font-weight: bold;
+.fun .card h5 {
+    font-weight: bold;
+}
+
+.fun .text-center h4 {
+    font-style: normal;
 }
 
 
 /*Press and News*/
 
-.news h1{
-	padding: 5%;
-	font-weight: bold;
+.news h1 {
+    text-align: center;
+    font-size: 4em;
+    padding-bottom: 3%;
+    font-weight: 700;
+    font-style: italic;
 }
-.news .card{
-	margin: 5% auto;
+
+.news .card {
+    margin: 5% auto;
+    background-color: #44A39A;
+    color: white;
 }
 
 
-.news h5{
-	font-size: 1em;
-	font-weight: bold;
-	color: gray ;
+.news h5 {
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
 }
 
 .news p {
-	color: gray;
+    color: white;
 }
 
 /* ABOUT US STYLING ------------------------------------------------------------------------------------------*/
@@ -280,7 +321,8 @@ nav .navbar-brand:hover{
     text-align: center;
 }
 
-.about-us h3, h4{
+.about-us h3,
+h4 {
     font-style: italic;
     line-height: 1.8;
     text-align: center;
@@ -307,15 +349,15 @@ nav .navbar-brand:hover{
     height: auto;
 }
 
-.leader-text h2{
-    text-align: left; 
-    font-style: normal; 
+.leader-text h2 {
+    text-align: left;
+    font-style: normal;
     font-weight: bold;
 }
 
-.leader-text h5{
-    text-align: left; 
-    font-style: normal; 
+.leader-text h5 {
+    text-align: left;
+    font-style: normal;
     font-weight: 200;
 }
 
@@ -343,21 +385,21 @@ nav .navbar-brand:hover{
 }
 
 .advisor h2 {
-    text-align: center; 
-    font-style: normal; 
+    text-align: center;
+    font-style: normal;
     font-weight: bold;
     font-size: 1.7em;
 }
 
-.advisor h5{
-    text-align: center; 
-    font-style: normal; 
+.advisor h5 {
+    text-align: center;
+    font-style: normal;
     font-weight: 200;
 }
 
-.advisor p{
-    text-align: center; 
-    font-style: normal; 
+.advisor p {
+    text-align: center;
+    font-style: normal;
     font-weight: 300;
 }
 
@@ -380,15 +422,14 @@ nav .navbar-brand:hover{
 
 .testimonial .carousel-item h2 {
     color: black;
-    font-style: italic; 
+    font-style: italic;
     font-weight: 300;
     text-align: center;
-    font-size: 1.8em;
-    
+    font-size: 1.6em;
+
 }
 
-.testimonial .main-text
-{
+.testimonial .main-text {
     position: absolute;
     top: 10%;
     width: 100%;
@@ -399,54 +440,55 @@ nav .navbar-brand:hover{
 
 /* GET HELP STYLING ------------------------------------------------------------------------------------------*/
 .gethelp {
-	font-size: 48px;
+    font-size: 48px;
 }
 
 .gethelp a#nav-heading {
-font-size: 2rem;
-padding: 0px;
-margin-right: 20%;
+    font-size: 2rem;
+    padding: 0px;
+    margin-right: 20%;
 
 }
+
 .gethelp a span {
-	color:red;
-	font-size: 1rem;
+    color: red;
+    font-size: 1rem;
 }
 
 .gethelp a#nav-elements {
-	font-size: 1.5rem;
-	margin-right: 5%;
+    font-size: 1.5rem;
+    margin-right: 5%;
 }
 
 .gethelp .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
 .gethelp h1 {
-	text-align: center;
-	font-size: 1.3em;
-	padding-bottom: 3%;
-	font-weight: 700;
-	font-style: italic;
+    text-align: center;
+    font-size: 1.3em;
+    padding-bottom: 3%;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .gethelp h1 span {
-	color: #00796B;
+    color: #00796B;
 }
 
-.gethelp .pt-5{
-	padding-top: 3rem !important;
+.gethelp .pt-5 {
+    padding-top: 3rem !important;
 }
 
 .gethelp .listing {
-	text-align: center;
-	font-size: 0.5em;
-	font-style: italic;
-	padding-left: 0px;
+    text-align: center;
+    font-size: 0.5em;
+    font-style: italic;
+    padding-left: 0px;
 }
 
 .gethelp .listing li {
@@ -455,31 +497,31 @@ margin-right: 20%;
     font-size: 21px;
 }
 
-.gethelp .aftr-para{
-	text-align: center;
-	font-size: 0.5em;
+.gethelp .aftr-para {
+    text-align: center;
+    font-size: 0.5em;
 }
 
 .gethelp .gethelp-findhelp {
-	background: #E5E5E5;
+    background: #E5E5E5;
 }
 
-.gethelp .gethelp-otherresources{
-	background: #BAA5CA;
+.gethelp .gethelp-otherresources {
+    background: #BAA5CA;
 }
 
-.gethelp .gethelp-faq{
-	background: white;
+.gethelp .gethelp-faq {
+    background: white;
 }
 
-.gethelp div.gethelp-faq h1{
-	color: #00796B;
+.gethelp div.gethelp-faq h1 {
+    color: #00796B;
 }
 
-.gethelp .accordion{
-	background: white;
-	border: 1px solid #4DB694;
-	border-left: 2px solid #4DB694;
+.gethelp .accordion {
+    background: white;
+    border: 1px solid #4DB694;
+    border-left: 2px solid #4DB694;
     border-right: 2px solid #4DB694;
 }
 
@@ -491,123 +533,124 @@ margin-right: 20%;
 }
 
 .gethelp img.card-img-top {
-	width: 30%;
-	height: 30%;
-	margin: auto;
+    width: 30%;
+    height: 30%;
+    margin: auto;
 }
 
 .gethelp .caption {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 10;
     width: 100%;
     color: white;
 }
 
-.gethelp .img-main-tp{
-	height: 100vh;/*always fit with screen height*/
-	width: 100%;
+.gethelp .img-main-tp {
+    height: 100vh;
+    /*always fit with screen height*/
+    width: 100%;
 }
 
 
-.gethelp .abuse-text{
-	padding-bottom: 0px;
-	margin-bottom: 0px;
+.gethelp .abuse-text {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-.gethelp img.other-resources{
-	width: 75%;
-	height: 75%;
-	margin: auto;
+.gethelp img.other-resources {
+    width: 75%;
+    height: 75%;
+    margin: auto;
 
 }
 
 .gethelp .img-fluig {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .gethelp .card-text {
-	font-size: 0.3em;
-	padding: 0px;
+    font-size: 0.3em;
+    padding: 0px;
 }
 
 .gethelp .card-heading {
-	font-size: 0.75em;
-	font-weight: 600;
+    font-size: 0.75em;
+    font-weight: 600;
 }
 
 .gethelp .card-header {
-	background: none;
-	text-decoration: none;
+    background: none;
+    text-decoration: none;
 }
 
 .gethelp .btn {
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 
 }
 
 .gethelp .btn:hover {
-	text-decoration: none;
-	color: gray;
+    text-decoration: none;
+    color: gray;
 
 }
 
 .gethelp .btn:active {
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 }
 
-.gethelp .accordion>.card{
-	text-align: left;
+.gethelp .accordion>.card {
+    text-align: left;
 }
 
-.gethelp .card-header .btn-link{
-	width: 100%;
-	text-align: left;
+.gethelp .card-header .btn-link {
+    width: 100%;
+    text-align: left;
 }
 
-.gethelp .accordion>.card .card-body{
-	font-size: 20px;
+.gethelp .accordion>.card .card-body {
+    font-size: 20px;
 }
 
-.gethelp .accordion>.card .card-header{
-	margin-bottom: 0px;
-	border-top: 1px solid #4DB694;
-	border-bottom: 1px solid #4DB694;
+.gethelp .accordion>.card .card-header {
+    margin-bottom: 0px;
+    border-top: 1px solid #4DB694;
+    border-bottom: 1px solid #4DB694;
 }
 
 .gethelp .card-header .btn-link:before {
     float: right !important;
     font-family: FontAwesome;
-    content:"\f068";
+    content: "\f068";
     padding-right: 5px;
 }
 
 .gethelp .card-header .btn-link.collapsed:before {
     float: right !important;
-    content:"\f067";
+    content: "\f067";
     font-family: FontAwesome;
 }
 
-.gethelp .card-header .btn-link:hover, 
-.card-header .btn-link:active, 
-.card-header .btn-link:focus  {
-    text-decoration:none;
+.gethelp .card-header .btn-link:hover,
+.card-header .btn-link:active,
+.card-header .btn-link:focus {
+    text-decoration: none;
 }
 
-.gethelp .card-header:first-child{
-	border-radius: 0px;
+.gethelp .card-header:first-child {
+    border-radius: 0px;
 }
 
 /*// Large devices (768px - 1200px)*/
-@media only screen and (min-width: 768px) and (max-width: 1200px){
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
     /* HEADING IMAGE */
 
-    .heading-image img{
+    .heading-image img {
         object-fit: cover;
         width: 100%;
         height: 30rem;
@@ -616,10 +659,121 @@ margin-right: 20%;
 
 /* --------------------------------------------------------------------------------------------------------------------- */
 /*// Medium devices (768px and below)*/
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
 
 
     /* General Small-screen Items */
+
+    /* HEADING IMAGE */
+
+    .heading-image img {
+        object-fit: cover;
+        width: 100%;
+        height: 20rem;
+    }
+
+    /* Get Help Small Screens */
+    .gethelp h1 {
+        font-size: .7em;
+    }
+
+    .gethelp .pt-5 {
+        padding-top: 2rem !important;
+    }
+
+    .gethelp .listing li {
+        font-size: 15px;
+    }
+
+    .gethelp .patner-text {
+        font-size: 0.8em;
+    }
+
+    .gethelp .accordion>.card .card-body {
+        font-size: 15px;
+    }
+
+    .gethelp .aftr-para {
+        font-size: 0.35em;
+    }
+
+    .navbar-brand {
+        color: white;
+        margin: 0 25% 0 auto;
+        font-size: 20px;
+    }
+
+    .navbar-collapse {
+        background-color: #BAA5CA;
+        margin: 0 -5% 10% -5%;
+        padding: 0 0 2% 2%;
+
+    }
+
+    nav .navbar-brand:hover {
+        color: black;
+    }
+
+    .carousel-caption {
+        font-size: 1.5rem;
+    }
+
+
+    /* ABOUT US */
+
+    .about-us h1 {
+        font-style: italic;
+        font-size: 2.3em;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .about-us h3 {
+        font-style: italic;
+        line-height: 1.6;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .leader-text h2 {
+        text-align: center;
+        font-style: normal;
+        font-weight: bold 200;
+        font-size: 1.8em;
+    }
+
+    .leader-text p {
+        text-align: center;
+        font-style: normal;
+        font-weight: bold 200;
+    }
+
+    .leader-text h5 {
+        text-align: center;
+        font-style: normal;
+        font-weight: 200;
+    }
+
+    .advisor .card-body {
+        padding: 10% 10%;
+    }
+
+    .advisory h1 {
+        font-style: italic;
+        font-size: 2.1em;
+        font-weight: bolder;
+        text-align: center;
+        color: #00796B;
+    }
+
+
+    .carousel-item h2 {
+        color: black;
+        font-weight: thin;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
 
     /* .about-us .heading-image .here-text{
         font-size: 2em;
@@ -647,115 +801,4 @@ margin-right: 20%;
         left: 50%;
         transform: translate(-50%, -700%);
     } */
-
-
-    /* HEADING IMAGE */
-
-    .heading-image img{
-        object-fit: cover;
-        width: 100%;
-        height: 15rem;
-    }
-	/* Get Help Small Screens */
-	.gethelp h1{
-		font-size: .7em;
-	}
-
-	.gethelp .pt-5{
-		padding-top: 2rem !important;
-	}
-	.gethelp .listing li{
-		font-size: 15px;
-	}
-	.gethelp .patner-text{
-		font-size: 0.8em;
-	}
-	.gethelp .accordion>.card .card-body{
-		font-size: 15px;
-	}
-
-	.gethelp .aftr-para{
-		font-size: 0.35em;
-	}
-
-	.navbar-brand{
-	  	color:white;
-	  	margin: 0 25% 0 auto;
-	  	font-size: 20px;
-    }
-
-    .navbar-collapse {
-        background-color: #BAA5CA;
-        margin: 0 -5% 10% -5%;
-        padding: 0 0 0 7%;
-
-    }
-
-	nav .navbar-brand:hover{
-		color:black;
-	}
-
-	.carousel-caption{
-		font-size:1.5rem;
-    }
-    
-
-    /* ABOUT US */
-
-    .about-us h1 {
-        font-style: italic;
-        font-size: 2.3em;
-        font-weight: bolder;
-        text-align: center;
-    }
-
-    .about-us h3{
-        font-style: italic;
-        line-height: 1.6;
-        font-size: 1.2em;
-        text-align: center;
-    }
-
-    .leader-text h2{
-        text-align: center; 
-        font-style: normal; 
-        font-weight: bold 200;
-        font-size: 1.8em;
-    }
-
-    .leader-text p{
-        text-align: center; 
-        font-style: normal; 
-        font-weight: bold 200;
-    }
-    
-    .leader-text h5{
-        text-align: center; 
-        font-style: normal; 
-        font-weight: 200;
-    }
-
-    .advisor .card-body{
-        padding: 10% 10%;
-    }
-
-    .advisory h1 {
-        font-style: italic;
-        font-size: 2.1em;
-        font-weight: bolder;
-        text-align: center;
-        color: #00796B;
-    }
-
-
-    .carousel-item h2 {
-        color: black;
-        font-weight: thin;
-        text-align: center;
-        font-size: 1.5em;
-    }
-
-    
-
 }
-
